@@ -1,0 +1,433 @@
+
+
+
+
+
+.banner{
+    overflow-x: hidden;
+    background-image: url(img/bg-masthead.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 60vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h1{
+    font-size: 36px;
+}
+
+.topp{
+  font-size: 18px;  
+  color: black;
+  text-align: center;
+}
+
+button{
+    background-color:#0fabb6;;
+    height: 40px;
+    width: 120px;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: white;
+    border: none;
+}
+
+.offer-section{
+    height: 30vh;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 50px;
+}
+
+#what-we-offer p{
+    color: black;
+    text-align: center;
+}
+
+
+#Services{
+    background-color: #0fabb6;
+}
+
+#Services p{
+    text-align: center;
+}
+
+.services{
+padding-top: 30px;
+text-align: center;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#Services h2{
+    color: white;
+}
+.paragraph{
+    font-size: 12px;
+    color: #dda610;;
+    text-align: center;
+}
+
+.services-icons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    text-align: center;
+    color: white;
+    flex-wrap: wrap;
+}
+
+#welcome-section{
+    background-image: url(img/portfolio-4.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 50vh;
+    margin-top: 50px;
+
+}
+
+.welcome{
+    padding-top: 100px;
+}
+
+#Portfolio h2,p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#Portfolio h3,p{
+    text-align: left;
+}
+
+#grid{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+   
+
+}
+
+.g1{
+    background-image: url(img/portfolio-1.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 300px;
+    color: white;
+    padding-top: 30px;
+    
+
+}
+
+.g2{
+    background-image: url(img/portfolio-2.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 300px;
+    color: white;
+    padding-top: 30px;
+}
+
+.g3{
+    background-image: url(img/portfolio-3.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 300px;
+    color: white;
+    padding-top: 30px;
+}
+
+.g4{
+    background-image: url(img/portfolio-4.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 40%;
+    height: 300px;
+    color: white;
+    padding-top: 30px;
+
+}
+
+#grid p{
+text-align: left;
+color: white;
+padding-left: 20px;
+}
+
+#grid h3{
+text-align: left;
+padding-left: 20px;
+padding-top: 150px;
+}
+
+
+
+
+#Click{
+    background-color: #0fabb6;
+    height: 35vh;
+}
+.click{
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+
+.click-me{
+    background-color: white;
+    color: black;
+}
+
+.look{
+    background-color: black;
+}
+
+#Map{ background-image: url(img/Screenshot\ 2025-02-12\ 122552.png);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+
+}
+
+.map{
+    background-color: white ;
+    height: 200px;
+    width: 500px;
+    text-align: left;
+}
+#Map p{
+    color: black;
+    text-align: left;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding-top: 30px;
+
+}
+
+.facebook{
+    height: 50px;
+    width: 50px;
+    background-color: #0fabb6;
+    border-radius: 100px;
+    justify-content: center;
+    
+    img{
+        height: 25px;
+        width: 25px;
+        padding-top: 12.5px;
+        padding-left: 10px;
+    }
+}
+
+.github{
+    height: 50px;
+    width: 50px;
+    background-color: #0fabb6;
+    border-radius: 100px;
+    
+    img{
+        height: 25px;
+        width: 25px;
+        padding-top: 12.5px;
+        padding-left: 10px;
+    }
+}
+
+.twitter{
+    height: 50px;
+    width: 50px;
+    background-color: #0fabb6;
+    border-radius: 100px;
+    
+    img{
+        height: 25px;
+        width: 25px;
+        padding-top: 12.5px;
+        padding-left: 10px;
+    }
+}
+    
+    
+
+#footer p{
+    color: black;
+    text-align: center;
+}
+
+
+@media (max-width: 768px) {
+
+    .banner{
+        height: 30vh;
+
+    }
+
+    .topp{
+        text-align: center;
+    }
+    #what-we-offer{
+        height: 35vh;
+    }
+    #welcome-section{
+        height: 45vh;
+    }
+    #Click{
+        height: 40vh;
+    }
+
+  
+    .map{
+        height: 130px;
+        width: 150px;
+
+        img{
+            height: 10px;
+        }
+    }
+
+    #Map{
+    height: 35vh;
+    }
+    
+    #Map h2{
+     padding-top: 5px;
+     padding-left: 10px;
+     font-size: 15px;
+    }
+    #Map p,a{
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    .g1{
+        width: 100%;
+        height: 250px;
+    }
+
+    .g2{
+        width: 100%;
+        height: 250px;
+    }
+    .g3{
+        width: 100%;
+        height: 250px;
+    }
+    .g4{
+        width: 100%;
+        height: 250px;
+    }
+    #grid p{
+        text-align: left;
+        color: white;
+        padding-left: 20px;
+        }
+        
+        #grid h3{
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 80px;
+        }
+   
+}
+
+@media (max-width: 576px) { 
+
+    .banner{
+        height: 30vh;
+
+    }
+
+    .topp{
+        text-align: center;
+    }
+    #what-we-offer{
+        height: 40vh;
+    }
+
+    #what-we-offer p{
+        color: black;
+    }
+    #welcome-section{
+        height: 40vh;
+    }
+    #Click{
+        height: 35vh;
+    }
+
+  
+    .map{
+        height: 130px;
+        width: 150px;
+
+        img{
+            height: 10px;
+        }
+    }
+
+    #Map{
+    height: 30vh;
+    }
+    
+    #Map h2{
+     padding-top: 5px;
+     padding-left: 10px;
+     font-size: 15px;
+    }
+    #Map p,a{
+        padding-left: 10px;
+        font-size: 10px;
+    }
+
+    .g1{
+        width: 100%;
+        height: 200px;
+    }
+
+    .g2{
+        width: 100%;
+        height: 200px;
+    }
+    .g3{
+        width: 100%;
+        height: 200px;
+    }
+    .g4{
+        width: 100%;
+        height: 200px;
+    }
+
+    #grid p{
+        text-align: left;
+        color: white;
+        padding-left: 20px;
+        }
+        
+        #grid h3{
+        text-align: left;
+        padding-left: 20px;
+        padding-top: 100px;
+        }
+}
+
+
+
+
+
+
+
